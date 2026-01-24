@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Owensonic Infinity | Consulting & Licensing 💼</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#05060a;
+  --bg2:#0b0f1a;
+  --neon:#00ffe0;
+  --neon2:#5f7cff;
+  --text:#e8ecf3;
+  --muted:#8b93a7;
+  --accent:#ff5f5f;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:Inter,sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text);overflow-x:hidden;}
+nav{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:18px 32px;background:rgba(5,6,10,0.85);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,0.06);z-index:1000;}
+nav .brand{font-family:Orbitron;font-weight:800;letter-spacing:1.5px;color:var(--neon);}
+nav a{color:var(--text);text-decoration:none;margin-left:28px;font-size:14px;opacity:.9;}
+nav a:hover{color:var(--neon);}
+header{min-height:100vh;display:flex;align-items:center;padding:140px 8vw 80px;}
+.hero{max-width:900px;animation:fadeUp 1.2s ease forwards;}
+.hero h1{font-family:Orbitron;font-size:clamp(42px,6vw,78px);line-height:1.05;margin:0 0 24px;background:linear-gradient(90deg,var(--neon),var(--neon2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.hero p{font-size:18px;color:var(--muted);max-width:720px;margin-bottom:24px;}
+.btn{padding:16px 28px;border-radius:40px;font-weight:600;text-decoration:none;transition:.3s;}
+.btn.primary{background:linear-gradient(90deg,var(--neon),var(--neon2));color:#05060a;box-shadow:0 0 25px rgba(0,255,224,.35);}
+.btn.secondary{border:1px solid rgba(255,255,255,.18);color:var(--text);}
+.btn:hover{transform:translateY(-2px);}
+section{padding:110px 8vw;}
+.section-title{font-family:Orbitron;font-size:34px;margin-bottom:22px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;margin-top:42px;}
+.card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);border-radius:22px;padding:32px;transition:.35s;}
+.card:hover{transform:translateY(-6px);box-shadow:0 0 40px rgba(0,255,224,.12);}
+.card h3{margin-top:0;font-family:Orbitron;color:var(--neon);}
+.card p{color:var(--muted);}
+footer{padding:60px 8vw 80px;border-top:1px solid rgba(255,255,255,.06);color:var(--muted);font-size:14px;text-align:center;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(40px);}to{opacity:1;transform:none;}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="brand">OWENSONIC ∞</div>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="daisy.html">Daisy AI 🤖</a>
+    <a href="consulting.html">Consulting & Licensing 💼</a>
+    <a href="#contact">Contact ✉️</a>
+  </div>
+</nav>
+
+<header>
+  <div class="hero">
+    <h1>Consulting & Licensing 💼</h1>
+    <p>
+      Owensonic Infinity provides expert consulting for R&D, system design, and competitive deployment. Our licensing options cover prototypes, hardware-software fusion, AI architectures, and proprietary IP. 🛠️
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#contact">Engage Consulting</a>
+      <a class="btn secondary" href="index.html">Back to Home</a>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <h2 class="section-title">Services & Licensing 🧩</h2>
+  <div class="grid">
+    <div class="card"><h3>R&D Prototyping</h3><p>Hands-on guidance for concept-to-prototype workflows, ensuring functionality and innovation.</p></div>
+    <div class="card"><h3>IP Integration</h3><p>Securely integrate licensed tech into your systems with full protection.</p></div>
+    <div class="card"><h3>System Consulting</h3><p>Engineering, mechanical, aerospace, and software consultation for enterprise and defense applications.</p></div>
+    <div class="card"><h3>AI Architecture</h3><p>Design, implement, and train custom AI assistants like Daisy for corporate workflows.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact ✉️</h2>
+  <p>For licensing inquiries, R&D consultation, or strategic engagements, reach out today.</p>
+  <p><strong>Email:</strong> contact@owensonicinfinity.com</p>
+  <p><strong>Phone:</strong> 440-281-6270</p>
+</section>
+
+<footer>
+  © Owensonic Infinity. All rights reserved. Confidential technologies protected.
+</footer>
+</body>
+</html>
